@@ -21,7 +21,8 @@ const Navbar = () => {
     <NavbarDiv showMenu={showMenu}>
       <div className="navContainer">
         <div className="logo" onClick={() => animateScroll.scrollToTop()}>
-        <span style={{transform: "rotate(180deg)"}}>&#125;</span> <span>Akram</span> <span>&#125;</span>
+        {/* <span style={{transform: "rotate(180deg)"}}>&#125;</span> <span>Akram</span> <span>&#125;</span> */}
+        <span style={{fontSize:"30px"}}>&lt; </span> <span>Akram</span> <span>/&gt;</span>
           
         </div>
         <div className="options">

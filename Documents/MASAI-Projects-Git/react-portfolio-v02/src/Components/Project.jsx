@@ -7,6 +7,15 @@ import royalbrothersImg from "../assets/Project-img/royalbrothers.png";
 import restaurantImg from "../assets/Project-img/restaurant.PNG";
 import travelCityImg from "../assets/Project-img/Homepage-2.PNG";
 
+// const stacks=() =>{
+
+//   return <>
+//   <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="html"/>
+//   <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="css"/>
+// </> 
+
+// } 
+
 
 let projectData = [
   {
@@ -17,8 +26,7 @@ let projectData = [
     team: "A collaborative project, built in 5 days by team of 3 members",
     git: "https://github.com/akram3598786/TravelCity-Clone",
     deployed: "https://travelcity-clone.netlify.app/",
-    techStack:
-      " React | Redux | HTML5 | CSS3 | Material Ui | Javascript | JSON Server | Postman | git | Heroku | Google Auth",
+    techStack:" React | Redux | HTML5 | CSS3 | Material Ui | Javascript | JSON Server | Postman | git | Heroku | Google Auth",
     blog: "#",
   },
   {

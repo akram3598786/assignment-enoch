@@ -1,5 +1,6 @@
 import React from "react";
 import FooterCon from "../css/Footer.styled";
+// import contactImg from "../assets/image/contact-img.gif";
 import {
   SiLinkedin,
   SiGmail,
@@ -21,8 +22,9 @@ const Footer = () => {
             >
               <span>
                 <SiLinkedin />
-              </span>
+              </span>tact tra
               <span>Linkedin</span>
+            
             </a>
           </div>
           <div>
