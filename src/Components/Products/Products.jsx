@@ -1,4 +1,4 @@
-import { Box, Flex, Heading, Image, Text, useMediaQuery, Grid, GridItem } from '@chakra-ui/react';
+import { Box, Flex, Heading, Image, Text, useMediaQuery, Grid, GridItem,Badge } from '@chakra-ui/react';
 // import { Stack, HStack, VStack } from '@chakra-ui/react';
 import { WrapItem, Button } from '@chakra-ui/react'
 // import {FaHeart} from 'react-icons/fa';
@@ -37,7 +37,8 @@ const products = [
         title: '#B8/457843',
         price: '$240',
         auction_time: '03 : 18 : 24 : 42s',
-        bidSts: false
+        bidSts: false,
+        offer : 15
 
     }
 ]
@@ -98,7 +99,12 @@ export const Products = () => {
                             </Flex>
                             <Flex direction={['column', 'column', 'row', 'row']} justifyContent={'space-between'} mt='15px' alignItems={'center'}>
                                 <Box display='inline-block' align={'left'} border='1px dotted #6398DB' m='15px 0' p='16px 14px 6px 14px'>
-                                    <Text fontSize={10} color='#42CE1F' >HIGHEST BID</Text>
+                                   {prod.bidSts ? <Text fontSize={10} color='#42CE1F' >HIGHEST BID</Text> :
+                                   <Flex direction={'column'}>
+                                    <Badge color={'white'} mt='-25px' borderRadius={'5px'} bg={'green'}>{prod.offer}% OFF</Badge>
+                                    <Text as='s' color={'red'}>$900</Text></Flex>
+                                   }
+                                   
                                     <Text fontSize={15} fontFamily="DIN 2014">{prod.price}</Text>
                                 </Box>
                                 <Box display='inline-block' align={'left'} border='1px dotted red' m='15px 0' p='16px 14px 6px 14px'>
