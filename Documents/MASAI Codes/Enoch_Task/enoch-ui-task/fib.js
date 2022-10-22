@@ -11,7 +11,6 @@ function fib(n){
     num2 = next;
    
   }
-
 }
 
 fib(5);
