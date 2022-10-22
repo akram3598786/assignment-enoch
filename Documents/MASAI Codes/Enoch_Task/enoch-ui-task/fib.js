@@ -1,6 +1,4 @@
 
-
-
 function fib(n){
   let num1 = 0, num2 = 1, next;
 
@@ -12,5 +10,4 @@ function fib(n){
    
   }
 }
-
 fib(5);
