@@ -18,7 +18,7 @@ function debounce(fun, delay){
   
 }
 
-const googfun = debounce(getData, 300);
+const goodfun = debounce(getData, 300);
 
 let flg = false;
 function getColor() {
