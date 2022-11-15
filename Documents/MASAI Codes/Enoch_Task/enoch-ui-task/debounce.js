@@ -1,4 +1,4 @@
-
+/*
 let obj = {
     a : 2,
     b : 3,
@@ -27,17 +27,7 @@ function display(i){
  for(var i=0; i<arr.length; i++){
     // display.call(arr, i);
  }
-  
-
-function sum(a){
-    let c = 9;
-   return function sub(b){
-       return function child(){
-          console.log(a+b+c);
-        }
-    }
-}
-sum(2)(3)();
+ */
 
 const debounce = (func, delay) => {
     // if the request or call is not interrupted for delay milliseconds
@@ -59,35 +49,6 @@ let ob2 ={
 //console.log(JSON.stringify(ob) == JSON.stringify(ob2)) // give true
 // console.log({...ob} == {...ob2})  always false
 
-const loginPromise = new Promise((resolve, reject)=>{
-    let port =  300;
-    if(port === 3000){
-        resolve(true)
-    }else{
-        reject("something wrong");
-}
-});
-
-loginPromise
-.then((res)=>console.log("login done"))
-.catch((err)=>console.log(err));
 
 
-function fib(number){
-    let n1 = 0, n2 = 1, nextTerm;
 
-console.log('Fibonacci Series:');
-let finn = 0;
-let out =[];
-for (let i = 1; i <= number; i++) {
-   // console.log(n1);
-   finn+=n1 + n2;
-  
-    nextTerm = n1 + n2;
-    n1 = n2;
-    n2 = nextTerm;
-    out.push(n1)
-}
-console.log(out)
-}
-fib(5);
