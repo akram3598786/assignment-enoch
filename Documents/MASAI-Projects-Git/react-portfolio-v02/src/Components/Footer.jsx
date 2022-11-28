@@ -22,7 +22,7 @@ const Footer = () => {
             >
               <span>
                 <SiLinkedin />
-              </span>tact tra
+              </span>
               <span>Linkedin</span>
             
             </a>
@@ -43,13 +43,13 @@ const Footer = () => {
             <a
              
               className="links"
-              href="mailto:developerakky2407@gmail.com"
+              href="mailto:itsakram3598@gmail.com"
               target={"_blank"}
             >
               <span>
                 <SiGmail />
               </span>
-              <span>developerakky2407@gmail.com</span>
+              <span>itsakram3598@gmail.com</span>
             </a>
           </div>
           <div>
@@ -57,7 +57,7 @@ const Footer = () => {
               <span>
                 <BsTelephoneFill />
               </span>
-              <span>+91 9115220549</span>
+              <span>+91 9315220549</span>
             </p>
           </div>
         </Fade>
